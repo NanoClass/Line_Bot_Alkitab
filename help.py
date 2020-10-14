@@ -1,0 +1,181 @@
+#help
+
+def about():
+	version = "1.0"
+	a = {
+  "type":"bubble",
+  "size":"giga",
+  "styles":{
+    "footer":{
+      "separator":True
+    }
+  },
+  "body":{  
+    "type":"box",
+    "layout":"vertical",
+    "contents":[
+      {
+        "type":"text",
+        "text":"HELP",
+        "weight":"bold",
+        "size":"md",
+        "margin":"md"
+      },
+      {
+        "type":"separator",
+        "margin":"sm"
+      },
+      {
+        "type":"box",
+        "layout":"vertical",
+        "margin":"xl",
+        "spacing":"sm",
+        "contents":[
+          {
+            "type":"box",
+            "layout":"horizontal",
+            "contents":[
+              {
+                "type":"text",
+                "text":" Strong Builder :",
+                "weight":"bold",
+                "size":"md",
+                "color":"#000000",
+                "flex":0
+              }
+            ]
+          },
+          {
+            "type":"text",
+            "text":"/sb "+u"\u21DB"+ " Membaca Strong Builder",
+            "size":"sm",
+            "color":"#000000",
+            "flex":0
+          },
+          {
+            "type":"text",
+            "text":"/sb-ay "+u"\u21DB"+ " Membaca Ayat Strong Builder",
+            "size":"sm",
+            "color":"#000000",
+            "flex":0
+          }
+        ]
+      },
+      {
+        "type":"separator",
+        "margin":"sm"
+      },{
+        "type":"box",
+        "layout":"vertical",
+        "margin":"xl",
+        "spacing":"sm",
+        "contents":[
+          {
+            "type":"box",
+            "layout":"horizontal",
+            "contents":[
+              {
+                "type":"text",
+                "text":" Alkitab :",
+                "weight":"bold",
+                "size":"md",
+                "color":"#000000",
+                "flex":0
+              }
+            ]
+          },
+          {
+            "type":"text",
+            "text":"/al <Kitab> <Pasal> <Ayat> #<Versi>",
+            "size":"sm",
+            "color":"#000000",
+            "flex":0
+          },
+          {
+            "type":"text",
+            "margin":"xxl",
+            "text":"contoh:",
+            "size":"sm",
+            "color":"#000000",
+            "flex":0
+          },{
+            "type":"text",
+            "text":"/al Kej 1 1",
+            "size":"sm",
+            "color":"#000000",
+            "flex":0
+          },{
+            "type":"text",
+            "text":"/al kejadian 1:1#KJV",
+            "size":"sm",
+            "color":"#000000",
+            "flex":0
+          }
+        ]
+      },{
+        "type":"separator",
+        "margin":"sm"
+      },{
+        "type":"box",
+        "layout":"vertical",
+        "margin":"xl",
+        "spacing":"sm",
+        "contents":[
+          {
+            "type":"box",
+            "layout":"horizontal",
+            "contents":[
+              {
+                "type":"text",
+                "text":"Misc :",
+                "weight":"bold",
+                "size":"md",
+                "color":"#000000",
+                "flex":0
+              }
+            ]
+          },
+          {
+            "type":"text",
+            "text":"/rh "+u"\u21DB"+ " Renungan Harian",
+            "size":"sm",
+            "color":"#000000",
+            "flex":0
+          },
+          {
+            "type":"text",
+            "text":"/ah "+u"\u21DB"+ " Ayat Harian",
+            "size":"sm",
+            "color":"#000000",
+            "flex":0
+          }
+        ]
+      },{
+        "type":"separator",
+        "margin":"sm"
+      },
+      {
+        "type":"box",
+        "layout":"horizontal",
+        "margin":"md",
+        "contents":[
+          {
+            "type":"text",
+            "text":"NanoDev",
+            "size":"xs",
+            "color":"#aaaaaa",
+            "flex":0
+          },
+          {
+            "type":"text",
+            "text":"Helper Ver "+version,
+            "color":"#aaaaaa",
+            "size":"xs",
+            "align":"end"
+          }
+        ]
+      }
+    ]
+  }
+}
+	return a
